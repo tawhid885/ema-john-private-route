@@ -1,0 +1,23 @@
+.shipping-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    padding: 30px;
+}
+.form-field{
+    padding: 5px;
+    border: 2px solid tomato;
+    margin-top: 2px;
+    width: 100%;
+}
+.error{
+    color: red;
+}
+.proceed{
+    padding: 5px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

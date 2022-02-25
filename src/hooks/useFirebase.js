@@ -12,13 +12,8 @@ const useFirebase=()=>{
 
     const googleSignIn=()=>{
         console.log("google clicked!");
-        signInWithPopup(auth, googleProvider)
-        .then(result=>{
-            console.log("user from google, ", result.user);
-        })
-        .catch(error=>{
-            console.log(error.message);
-        })
+        return signInWithPopup(auth, googleProvider)
+        
     }
 
     useEffect(()=>{
